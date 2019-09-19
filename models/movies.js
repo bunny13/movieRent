@@ -21,7 +21,7 @@ const movieSchema = new mongoose.Schema({
     },
     dailyRentalRate:{
         type:Number,
-        require:true
+        required:true
     }
 });
 

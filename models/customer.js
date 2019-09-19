@@ -15,7 +15,7 @@ const custSchema = new mongoose.Schema({
     },
     phone: {
         type:String,
-        require: true,
+        required: true,
         minLength: 10,
         maxLength: 10
     }
